@@ -1,0 +1,845 @@
+Script made by VIPER
+Discord - https://discord.gg/ZjnMetfUDN
+
+local ScreenGui = Instance.new("ScreenGui")
+local KrampGUI = Instance.new("Frame")
+local GodMode = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local ChamsEsp = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Aimbot = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local ExitButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Terminate = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Discord = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
+local Logo = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local CloseLogo = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local TermNoti = Instance.new("Frame")
+local TermNotif = Instance.new("TextLabel")
+local AimbotNotif = Instance.new("Frame")
+local AimbotNoti = Instance.new("TextLabel")
+local PlayerChamsNotif = Instance.new("Frame")
+local PlayerChamsNoti = Instance.new("TextLabel")
+local GodModeNoti = Instance.new("Frame")
+local GodModeNotif = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+KrampGUI.Name = "KrampGUI"
+KrampGUI.Parent = ScreenGui
+KrampGUI.AnchorPoint = Vector2.new(0.5, 0.5)
+KrampGUI.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+KrampGUI.BackgroundTransparency = 0.050
+KrampGUI.Position = UDim2.new(0.255048484, 0, 0.47116968, 0)
+KrampGUI.Size = UDim2.new(0.29477483, 0, 0.375617772, 0)
+
+GodMode.Name = "GodMode"
+GodMode.Parent = KrampGUI
+GodMode.AnchorPoint = Vector2.new(0.5, 0.5)
+GodMode.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+GodMode.Position = UDim2.new(0.113599055, 0, 0.226623952, 0)
+GodMode.Size = UDim2.new(0.193396628, 0, 0.308666646, 0)
+GodMode.Font = Enum.Font.LuckiestGuy
+GodMode.Text = "Godmode"
+GodMode.TextColor3 = Color3.fromRGB(230, 230, 230)
+GodMode.TextScaled = true
+GodMode.TextSize = 24.000
+GodMode.TextWrapped = true
+
+UICorner.Parent = GodMode
+
+ChamsEsp.Name = "Chams Esp"
+ChamsEsp.Parent = KrampGUI
+ChamsEsp.AnchorPoint = Vector2.new(0.5, 0.5)
+ChamsEsp.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+ChamsEsp.Position = UDim2.new(0.327870011, 0, 0.228816926, 0)
+ChamsEsp.Size = UDim2.new(0.193000004, 0, 0.308999985, 0)
+ChamsEsp.Font = Enum.Font.LuckiestGuy
+ChamsEsp.Text = "Player Chams"
+ChamsEsp.TextColor3 = Color3.fromRGB(230, 230, 230)
+ChamsEsp.TextScaled = true
+ChamsEsp.TextSize = 24.000
+ChamsEsp.TextWrapped = true
+
+UICorner_2.Parent = ChamsEsp
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = KrampGUI
+Aimbot.AnchorPoint = Vector2.new(0.5, 0.5)
+Aimbot.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+Aimbot.Position = UDim2.new(0.545621514, 0, 0.228816926, 0)
+Aimbot.Size = UDim2.new(0.193000004, 0, 0.308999985, 0)
+Aimbot.Font = Enum.Font.LuckiestGuy
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(230, 230, 230)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 24.000
+Aimbot.TextWrapped = true
+
+UICorner_3.Parent = Aimbot
+
+ExitButton.Name = "ExitButton"
+ExitButton.Parent = KrampGUI
+ExitButton.AnchorPoint = Vector2.new(0.5, 0.5)
+ExitButton.BackgroundColor3 = Color3.fromRGB(203, 0, 3)
+ExitButton.Position = UDim2.new(0.940362751, 0, 0.903508842, 0)
+ExitButton.Size = UDim2.new(0.115600154, 0, 0.192982465, 0)
+ExitButton.Font = Enum.Font.SourceSans
+ExitButton.Text = "X"
+ExitButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExitButton.TextScaled = true
+ExitButton.TextSize = 14.000
+ExitButton.TextWrapped = true
+
+UICorner_4.Parent = ExitButton
+
+Terminate.Name = "Terminate"
+Terminate.Parent = KrampGUI
+Terminate.AnchorPoint = Vector2.new(0.5, 0.5)
+Terminate.BackgroundColor3 = Color3.fromRGB(203, 0, 3)
+Terminate.Position = UDim2.new(0.164507881, 0, 0.92982465, 0)
+Terminate.Size = UDim2.new(0.329015821, 0, 0.140350893, 0)
+Terminate.Font = Enum.Font.FredokaOne
+Terminate.Text = "Terminate Gui"
+Terminate.TextColor3 = Color3.fromRGB(255, 255, 255)
+Terminate.TextScaled = true
+Terminate.TextSize = 14.000
+Terminate.TextWrapped = true
+
+UICorner_5.Parent = Terminate
+
+Discord.Name = "Discord"
+Discord.Parent = KrampGUI
+Discord.AnchorPoint = Vector2.new(0.5, 0.5)
+Discord.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+Discord.Position = UDim2.new(0.642627597, 0, 0.916666687, 0)
+Discord.Size = UDim2.new(0.280108064, 0, 0.166666672, 0)
+Discord.Font = Enum.Font.FredokaOne
+Discord.Text = "Discord  ZjnMetfUDN"
+Discord.TextColor3 = Color3.fromRGB(230, 230, 230)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
+
+UICorner_6.Parent = Discord
+
+Title.Name = "Title"
+Title.Parent = KrampGUI
+Title.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Title.BackgroundTransparency = 0.050
+Title.BorderColor3 = Color3.fromRGB(20, 32, 40)
+Title.Position = UDim2.new(0, 0, -0.233200327, 0)
+Title.Size = UDim2.new(0.999999821, 0, 0.233200446, 0)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "Krampus Universal"
+Title.TextColor3 = Color3.fromRGB(216, 216, 216)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 0)
+UICorner_7.Parent = Title
+
+UICorner_8.CornerRadius = UDim.new(0, 2)
+UICorner_8.Parent = KrampGUI
+
+Logo.Name = "Logo"
+Logo.Parent = ScreenGui
+Logo.AnchorPoint = Vector2.new(0.5, 0.5)
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.Position = UDim2.new(0.499344736, 0, 0.108731441, 0)
+Logo.Size = UDim2.new(0, 42, 0, 40)
+
+UICorner_9.Parent = Logo
+
+CloseLogo.Name = "CloseLogo"
+CloseLogo.Parent = Logo
+CloseLogo.AnchorPoint = Vector2.new(0.5, 0.5)
+CloseLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseLogo.Position = UDim2.new(0.516129255, 0, 0.502468109, 0)
+CloseLogo.Size = UDim2.new(1.02141666, 0, 1.02025962, 0)
+CloseLogo.Image = "rbxassetid://11754651519"
+
+UICorner_10.Parent = CloseLogo
+
+TermNoti.Name = "TermNoti"
+TermNoti.Parent = ScreenGui
+TermNoti.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TermNoti.BackgroundTransparency = 0.150
+TermNoti.Position = UDim2.new(-0.354999989, 0, 0.101999998, 0)
+TermNoti.Size = UDim2.new(0, 333, 0, 42)
+
+TermNotif.Name = "TermNotif"
+TermNotif.Parent = TermNoti
+TermNotif.AnchorPoint = Vector2.new(0.5, 0.5)
+TermNotif.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TermNotif.BackgroundTransparency = 0.150
+TermNotif.Position = UDim2.new(0.499344379, 0, 0.497111738, 0)
+TermNotif.Size = UDim2.new(0, 333, 0, 42)
+TermNotif.Font = Enum.Font.FredokaOne
+TermNotif.Text = ""
+TermNotif.TextColor3 = Color3.fromRGB(255, 255, 255)
+TermNotif.TextScaled = true
+TermNotif.TextSize = 22.000
+TermNotif.TextWrapped = true
+
+AimbotNotif.Name = "AimbotNotif"
+AimbotNotif.Parent = ScreenGui
+AimbotNotif.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimbotNotif.BackgroundTransparency = 0.150
+AimbotNotif.Position = UDim2.new(-0.354999989, 0, 0.101999998, 0)
+AimbotNotif.Size = UDim2.new(0, 333, 0, 42)
+
+AimbotNoti.Name = "AimbotNoti"
+AimbotNoti.Parent = AimbotNotif
+AimbotNoti.AnchorPoint = Vector2.new(0.5, 0.5)
+AimbotNoti.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+AimbotNoti.BackgroundTransparency = 0.150
+AimbotNoti.Position = UDim2.new(0.497852802, 0, 0.482952595, 0)
+AimbotNoti.Size = UDim2.new(0, 333, 0, 42)
+AimbotNoti.Font = Enum.Font.FredokaOne
+AimbotNoti.Text = ""
+AimbotNoti.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimbotNoti.TextScaled = true
+AimbotNoti.TextSize = 22.000
+AimbotNoti.TextWrapped = true
+
+PlayerChamsNotif.Name = "PlayerChamsNotif"
+PlayerChamsNotif.Parent = ScreenGui
+PlayerChamsNotif.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerChamsNotif.BackgroundTransparency = 0.150
+PlayerChamsNotif.Position = UDim2.new(-0.354999989, 0, 0.101999998, 0)
+PlayerChamsNotif.Size = UDim2.new(0, 333, 0, 42)
+PlayerChamsNotif.Visible = false
+
+PlayerChamsNoti.Name = "PlayerChamsNoti"
+PlayerChamsNoti.Parent = PlayerChamsNotif
+PlayerChamsNoti.AnchorPoint = Vector2.new(0.5, 0.5)
+PlayerChamsNoti.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+PlayerChamsNoti.BackgroundTransparency = 0.150
+PlayerChamsNoti.Position = UDim2.new(0.497229815, 0, 0.49350217, 0)
+PlayerChamsNoti.Size = UDim2.new(0, 333, 0, 42)
+PlayerChamsNoti.Font = Enum.Font.FredokaOne
+PlayerChamsNoti.Text = ""
+PlayerChamsNoti.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerChamsNoti.TextScaled = true
+PlayerChamsNoti.TextSize = 22.000
+PlayerChamsNoti.TextWrapped = true
+
+GodModeNoti.Name = "GodModeNoti"
+GodModeNoti.Parent = ScreenGui
+GodModeNoti.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GodModeNoti.BackgroundTransparency = 0.150
+GodModeNoti.Position = UDim2.new(-0.354999989, 0, 0.101999998, 0)
+GodModeNoti.Size = UDim2.new(0, 333, 0, 42)
+
+GodModeNotif.Name = "GodModeNotif"
+GodModeNotif.Parent = GodModeNoti
+GodModeNotif.AnchorPoint = Vector2.new(0.5, 0.5)
+GodModeNotif.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+GodModeNotif.BackgroundTransparency = 0.150
+GodModeNotif.Position = UDim2.new(0.497852892, 0, 0.482952386, 0)
+GodModeNotif.Size = UDim2.new(0, 333, 0, 42)
+GodModeNotif.Font = Enum.Font.FredokaOne
+GodModeNotif.Text = ""
+GodModeNotif.TextColor3 = Color3.fromRGB(255, 255, 255)
+GodModeNotif.TextScaled = true
+GodModeNotif.TextSize = 22.000
+GodModeNotif.TextWrapped = true
+
+-- Scripts:
+
+local function UNUNSRF_fake_script() -- GodMode.Script 
+	local script = Instance.new('LocalScript', GodMode)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		while wait() do
+		local Player = game.Players.LocalPlayer
+		local Character = Player.Character
+		local Humanoid = Character.Humanoid
+		
+		
+		
+		Humanoid.MaxHealth =  math.huge
+		Humanoid.Health = math.huge
+		
+		
+		Humanoid.HealthChanged:connect(function()
+			if Humanoid.Health > 10 then
+				Humanoid.Health = Humanoid.MaxHealth
+				
+			end
+		end)
+		end
+		
+		
+		
+		
+	end)
+end
+coroutine.wrap(UNUNSRF_fake_script)()
+local function CWNVROD_fake_script() -- GodMode.Button tweens 
+	local script = Instance.new('LocalScript', GodMode)
+
+	local button = script.Parent
+	Debounce = false
+	DebounceTime = 0.5 -- The cooldown time
+	
+	
+	function pressed()
+		if not Debounce then
+			Debounce = true
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale/1.2, button.Size.Y.Scale/1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			wait(0.21)
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale*1.2, button.Size.Y.Scale*1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+	
+			wait(DebounceTime)
+			Debounce = false
+		end
+	end
+	button.Activated:Connect(pressed)
+end
+coroutine.wrap(CWNVROD_fake_script)()
+local function DSDZ_fake_script() -- GodMode.GodmodeNotification 
+	local script = Instance.new('LocalScript', GodMode)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+		wait(1)
+		local ChamsNotif = script.Parent.Parent.Parent.GodModeNoti
+		local ChamsNoti = ChamsNotif.GodModeNotif
+		ChamsNotif.Visible = true
+		ChamsNotif:TweenPosition(UDim2.new(0.001, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		ChamsNoti.Text = "You have successfully activated godmode [Krampus Hub]"
+		wait(3.5)
+		ChamsNotif:TweenPosition(UDim2.new(-0.355, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		wait(1)
+		ChamsNotif.Visible = false
+		ChamsNotif:Destroy()
+	
+	
+	end)
+	
+end
+coroutine.wrap(DSDZ_fake_script)()
+local function FAKWG_fake_script() -- ChamsEsp.Script 
+	local script = Instance.new('LocalScript', ChamsEsp)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		
+		
+		local dwEntities = game:GetService("Players")
+		local dwLocalPlayer = dwEntities.LocalPlayer 
+		local dwRunService = game:GetService("RunService")
+	
+		local settings_tbl = {
+			ESP_Enabled = true,
+			ESP_TeamCheck = false,
+			Chams = true,
+			Chams_Color = Color3.fromRGB(0,0,255),
+			Chams_Transparency = 0.1,
+			Chams_Glow_Color = Color3.fromRGB(255,0,0)
+		}
+	
+		local function destroy_chams(char)
+	
+			for k,v in next, char:GetChildren() do 
+	
+				if v:IsA("BasePart") and v.Transparency ~= 1 then
+	
+					if v:FindFirstChild("Glow") and 
+						v:FindFirstChild("Chams") then
+	
+						v.Glow:Destroy()
+						v.Chams:Destroy() 
+	
+					end 
+	
+				end 
+	
+			end 
+	
+		end
+	
+		dwRunService.Heartbeat:Connect(function()
+	
+			if settings_tbl.ESP_Enabled then
+	
+				for k,v in next, dwEntities:GetPlayers() do 
+	
+					if v ~= dwLocalPlayer then
+	
+						if v.Character and
+							v.Character:FindFirstChild("HumanoidRootPart") and 
+							v.Character:FindFirstChild("Humanoid") and 
+							v.Character:FindFirstChild("Humanoid").Health ~= 0 then
+	
+							if settings_tbl.ESP_TeamCheck == false then
+	
+								local char = v.Character 
+	
+								for k,b in next, char:GetChildren() do 
+	
+									if b:IsA("BasePart") and 
+										b.Transparency ~= 1 then
+	
+										if settings_tbl.Chams then
+	
+											if not b:FindFirstChild("Glow") and
+												not b:FindFirstChild("Chams") then
+	
+												local chams_box = Instance.new("BoxHandleAdornment", b)
+												chams_box.Name = "Chams"
+												chams_box.AlwaysOnTop = true 
+												chams_box.ZIndex = 4 
+												chams_box.Adornee = b 
+												chams_box.Color3 = settings_tbl.Chams_Color
+												chams_box.Transparency = settings_tbl.Chams_Transparency
+												chams_box.Size = b.Size + Vector3.new(0.02, 0.02, 0.02)
+	
+												local glow_box = Instance.new("BoxHandleAdornment", b)
+												glow_box.Name = "Glow"
+												glow_box.AlwaysOnTop = false 
+												glow_box.ZIndex = 3 
+												glow_box.Adornee = b 
+												glow_box.Color3 = settings_tbl.Chams_Glow_Color
+												glow_box.Size = chams_box.Size + Vector3.new(0.13, 0.13, 0.13)
+	
+											end
+	
+										else
+	
+											destroy_chams(char)
+	
+										end
+	
+									end
+	
+								end
+	
+							else
+	
+								if v.Team == dwLocalPlayer.Team then
+									destroy_chams(v.Character)
+								end
+	
+							end
+	
+						else
+	
+							destroy_chams(v.Character)
+	
+						end
+	
+					end
+	
+				end
+	
+			else 
+	
+				for k,v in next, dwEntities:GetPlayers() do 
+	
+					if v ~= dwLocalPlayer and 
+						v.Character and 
+						v.Character:FindFirstChild("HumanoidRootPart") and 
+						v.Character:FindFirstChild("Humanoid") and 
+						v.Character:FindFirstChild("Humanoid").Health ~= 0 then
+	
+						destroy_chams(v.Character)
+	
+					end
+	
+				end
+	
+			end
+	
+		end)
+		
+		
+		
+	
+			end)
+		
+end
+coroutine.wrap(FAKWG_fake_script)()
+local function HQUKT_fake_script() -- ChamsEsp.Button tweens 
+	local script = Instance.new('LocalScript', ChamsEsp)
+
+	local button = script.Parent
+	Debounce = false
+	DebounceTime = 0.5 -- The cooldown time
+	
+	
+	function pressed()
+		if not Debounce then
+			Debounce = true
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale/1.2, button.Size.Y.Scale/1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			wait(0.21)
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale*1.2, button.Size.Y.Scale*1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+	
+			wait(DebounceTime)
+			Debounce = false
+		end
+	end
+	button.Activated:Connect(pressed)
+end
+coroutine.wrap(HQUKT_fake_script)()
+local function RNWG_fake_script() -- ChamsEsp.ChamsNotification 
+	local script = Instance.new('LocalScript', ChamsEsp)
+
+	
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+		wait(1)
+		local ChamsNotif = script.Parent.Parent.Parent.PlayerChamsNotif
+		local ChamsNoti = ChamsNotif.PlayerChamsNoti
+		ChamsNotif.Visible = true
+		ChamsNotif:TweenPosition(UDim2.new(0.001, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		ChamsNoti.Text = "You have successfully activated player chams [Krampus Hub]"
+		wait(3.5)
+		ChamsNotif:TweenPosition(UDim2.new(-0.355, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		wait(1)
+		ChamsNotif.Visible = false
+		ChamsNotif:Destroy()
+		
+	
+	end)
+	
+	
+end
+coroutine.wrap(RNWG_fake_script)()
+local function TWYACAR_fake_script() -- Aimbot.Script 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	local button = script.Parent
+	
+	
+	button.MouseButton1Click:Connect(function()
+		
+		
+		local Players = game:GetService("Players")
+		local LocalPlayer = Players.LocalPlayer
+		local Camera = workspace.CurrentCamera
+		local RunService = game:GetService("RunService") 
+		local UserInputService = game:GetService("UserInputService")
+		local TweenService = game:GetService("TweenService")
+		local Holding = false
+	
+		--Aimbot settings
+	
+		getgenv().AimbotEnabled =  true
+		getgenv().TeamCheck =  false
+		getgenv().AimPart = "Head"
+		getgenv().Sensitivity = 0
+	
+		--Cirlce Settings
+	
+		getgenv().CircleSides = 64
+		getgenv().CircleColor = Color3.fromRGB(255,255,255)
+		getgenv().CircleTransparency = 0.7
+		getgenv().CircleRadius = 80
+		getgenv().CircleFilled = false
+		getgenv().CircleVisible = true
+		getgenv().CircleThickness = 0
+	
+	
+		local FOVCircle = Drawing.new("Circle")
+		FOVCircle.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
+		FOVCircle.Radius = getgenv().CircleRadius
+		FOVCircle.Filled = getgenv().CircleFilled
+		FOVCircle.Color = getgenv().CircleColor
+		FOVCircle.Visible = getgenv().CircleVisible
+		FOVCircle.Radius = getgenv().CircleRadius
+		FOVCircle.Transparency = getgenv().CircleTransparency
+		FOVCircle.NumSides = getgenv().CircleSides
+		FOVCircle.Thickness = getgenv().CircleThickness
+	
+		local function GetClosestPlayer()
+			local MaximumDistance = getgenv().CircleRadius
+			local Target = nil
+	
+			for _,v in next, Players:GetPlayers() do
+				if v.Name ~= LocalPlayer.Team then
+					if getgenv().TeamCheck == true then
+						if v.Team ~= LocalPlayer.Team then
+							if v.Character ~= nil then
+								if v.Character:FindFirstChild("HumanoidRootPart") ~= nil then
+									if v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("Humanoid").Health ~= 0 then
+										local ScreenPoint = Camera:WorldToScreenPoint(v.Character:WaitForChild("HumanoidRootPart", math.huge).Position)
+										local VectorDistance = (Vector2.new(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y) - Vector2.new(ScreenPoint.X, ScreenPoint.Y)).Magnitude
+	
+										if VectorDistance < MaximumDistance then
+											Target = v
+										end
+									end
+								end
+							end
+						end
+					else
+						if v.Character ~= nil then
+							if v.Character:FindFirstChild("HumanoidRootPart") ~= nil then
+								if v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("Humanoid").Health ~= 0 then
+									local ScreenPoint = Camera:WorldToScreenPoint(v.Character:WaitForChild("HumanoidRootPart", math.huge).Position)
+									local VectorDistance = (Vector2.new(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y) - Vector2.new(ScreenPoint.X, ScreenPoint.Y)).Magnitude
+	
+									if VectorDistance < MaximumDistance then
+										Target = v
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+			return Target
+		end
+	
+		UserInputService.InputBegan:Connect(function(Input)
+			if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+				Holding = true
+			end
+		end)
+	
+		UserInputService.InputEnded:Connect(function(Input)
+			if Input.UserInputType == Enum.UserInputType.MouseButton2 then
+				Holding = false
+			end
+		end)
+	
+		RunService.RenderStepped:Connect(function()
+	
+			FOVCircle.Position = Vector2.new(UserInputService:GetMouseLocation().X, UserInputService:GetMouseLocation().Y)
+			FOVCircle.Radius = getgenv().CircleRadius
+			FOVCircle.Filled = getgenv().CircleFilled
+			FOVCircle.Color = getgenv().CircleColor
+			FOVCircle.Visible = getgenv().CircleVisible
+			FOVCircle.Radius = getgenv().CircleRadius
+			FOVCircle.Transparency = getgenv().CircleTransparency
+			FOVCircle.NumSides = getgenv().CircleSides
+			FOVCircle.Thickness = getgenv().CircleThickness
+	
+	
+			if Holding == true and getgenv().AimbotEnabled == true then
+				TweenService:Create(Camera , TweenInfo.new(getgenv().Sensitivity, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {CFrame = CFrame.new(Camera.CFrame.Position, GetClosestPlayer().Character[getgenv().AimPart].Position)}):Play()
+	
+			end
+	
+		end)
+		
+		
+		
+	
+			end)
+		
+end
+coroutine.wrap(TWYACAR_fake_script)()
+local function GLDLOHJ_fake_script() -- Aimbot.Button tweens 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	local button = script.Parent
+	Debounce = false
+	DebounceTime = 0.5 -- The cooldown time
+	
+	
+	function pressed()
+		if not Debounce then
+			Debounce = true
+		button:TweenSize(UDim2.fromScale(button.Size.X.Scale/1.2, button.Size.Y.Scale/1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			wait(0.21)
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale*1.2, button.Size.Y.Scale*1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			
+			wait(DebounceTime)
+			Debounce = false
+		end
+		end
+	button.Activated:Connect(pressed)
+end
+coroutine.wrap(GLDLOHJ_fake_script)()
+local function YMSB_fake_script() -- Aimbot.AimbotNotification 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	
+		wait(1)
+		local ChamsNotif = script.Parent.Parent.Parent.AimbotNotif
+		local ChamsNoti = ChamsNotif.AimbotNoti
+		ChamsNotif.Visible = true
+		ChamsNotif:TweenPosition(UDim2.new(0.001, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		ChamsNoti.Text = "You have successfully activated aimbot [Krampus Hub]"
+		wait(3.5)
+		ChamsNotif:TweenPosition(UDim2.new(-0.355, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		wait(1)
+		ChamsNotif.Visible = false
+		ChamsNotif:Destroy()
+	
+	
+	end)
+	
+end
+coroutine.wrap(YMSB_fake_script)()
+local function CBTT_fake_script() -- ExitButton.LocalScript 
+	local script = Instance.new('LocalScript', ExitButton)
+
+	local button = script.Parent
+	local Frame = script.Parent.Parent
+	local Term = script.Parent.Parent.Parent.KrampGUI.Terminate
+	local GoalPos = script.Parent.Parent.Parent.Logo.Position
+	
+	button.MouseButton1Click:Connect(function()
+		
+		Frame:TweenSize(UDim2.new(GoalPos), Enum.EasingDirection.In, Enum.EasingStyle.Linear,0.5, false )
+		Term:TweenSize(UDim2.new(Term.Size), Enum.EasingDirection.Out, Enum.EasingStyle.Linear,0.5, false )
+		wait(0.5)
+		Frame.Visible = false
+		
+	end)
+		
+	
+end
+coroutine.wrap(CBTT_fake_script)()
+local function KYIUUV_fake_script() -- ExitButton.Button tweens 
+	local script = Instance.new('LocalScript', ExitButton)
+
+	local button = script.Parent
+	Debounce = false
+	DebounceTime = 0.5 -- The cooldown time
+	
+	
+	function pressed()
+		if not Debounce then
+			Debounce = true
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale/1.2, button.Size.Y.Scale/1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			wait(0.21)
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale*1.2, button.Size.Y.Scale*1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+	
+			wait(DebounceTime)
+			Debounce = false
+		end
+	end
+	button.Activated:Connect(pressed)
+end
+coroutine.wrap(KYIUUV_fake_script)()
+local function NYOW_fake_script() -- Terminate.LocalScript 
+	local script = Instance.new('LocalScript', Terminate)
+
+	
+	local ChamsNotif = script.Parent.Parent.Parent.TermNoti
+	local ChamsNoti = ChamsNotif.TermNotif
+	local button = script.Parent
+	local TermGUI = script.Parent.Parent.Parent.KrampGUI
+	local TermLogo = script.Parent.Parent.Parent.Logo
+	local Notification = script.Parent.Parent.Parent.TermNoti
+	local Notififi = Notification.TermNotif
+	local KrampGui = script.Parent.Parent
+	local KrampLogo = script.Parent.Parent.Parent.Logo
+	local GoalPos = script.Parent.Parent.Parent.Logo.Position
+	
+	
+	button.MouseButton1Click:Connect(function()
+		KrampGui:TweenSize(UDim2.new(GoalPos), Enum.EasingDirection.In, Enum.EasingStyle.Linear,0.5, false )
+		KrampLogo:TweenSize(UDim2.new(GoalPos), Enum.EasingDirection.In, Enum.EasingStyle.Linear,0.5, false )
+		wait(0.5)
+		TermGUI:Destroy()
+		TermLogo:Destroy()
+		wait(1)
+		
+		ChamsNotif.Visible = true
+		ChamsNotif:TweenPosition(UDim2.new(0.001, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		ChamsNoti.Text = "You have successfully terminated the gui [Krampus Hub]"
+		wait(3.5)
+		ChamsNotif:TweenPosition(UDim2.new(-0.355, 0,0.102, 0),Enum.EasingDirection.In, Enum.EasingStyle.Linear, 1, false)
+		wait(1)
+		ChamsNotif.Visible = false
+		ChamsNotif:Destroy()
+		
+		
+		
+	end)
+end
+coroutine.wrap(NYOW_fake_script)()
+local function VRWRGZM_fake_script() -- Terminate.Button tweens 
+	local script = Instance.new('LocalScript', Terminate)
+
+	local button = script.Parent
+	Debounce = false
+	DebounceTime = 0.5 -- The cooldown time
+	
+	
+	function pressed()
+		if not Debounce then
+			Debounce = true
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale/1.2, button.Size.Y.Scale/1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			wait(0.21)
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale*1.2, button.Size.Y.Scale*1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+	
+			wait(DebounceTime)
+			Debounce = false
+		end
+	end
+	button.Activated:Connect(pressed)
+end
+coroutine.wrap(VRWRGZM_fake_script)()
+local function BDHXNAR_fake_script() -- Discord.Button tweens 
+	local script = Instance.new('LocalScript', Discord)
+
+	local button = script.Parent
+	Debounce = false
+	DebounceTime = 0.5 -- The cooldown time
+	
+	
+	function pressed()
+		if not Debounce then
+			Debounce = true
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale/1.2, button.Size.Y.Scale/1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+			wait(0.21)
+			button:TweenSize(UDim2.fromScale(button.Size.X.Scale*1.2, button.Size.Y.Scale*1.2),  Enum.EasingDirection.In, Enum.EasingStyle.Linear, 0.2)
+	
+			wait(DebounceTime)
+			Debounce = false
+		end
+	end
+	button.Activated:Connect(pressed)
+end
+coroutine.wrap(BDHXNAR_fake_script)()
+local function OYPZ_fake_script() -- CloseLogo.Open 
+	local script = Instance.new('LocalScript', CloseLogo)
+
+	local button = script.Parent
+	local Frame = script.Parent.Parent.Parent.KrampGUI
+	local Term = script.Parent.Parent.Parent.KrampGUI.Terminate
+	local GoalPos = script.Parent.Parent.Parent.Logo.Position
+	
+	button.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+		Frame:TweenSize(UDim2.new(0.295, 0,0.376, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear,0.5, false )
+		Term:TweenSize(UDim2.new(0.329, 0,0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear,0.5, false )
+		
+		
+	
+	end)
+	
+	
+end
+coroutine.wrap(OYPZ_fake_script)()
