@@ -167,8 +167,6 @@ Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Logo.Position = UDim2.new(0.499344736, 0, 0.108731441, 0)
 Logo.Size = UDim2.new(0, 42, 0, 40)
 
-
-
 UICorner_9.Parent = Logo
 
 CloseLogo.Name = "CloseLogo"
@@ -268,7 +266,7 @@ GodModeNotif.TextWrapped = true
 
 -- Scripts:
 
-local function DXKR_fake_script() -- GodMode.Script 
+local function ZOYL_fake_script() -- GodMode.Script 
 	local script = Instance.new('LocalScript', GodMode)
 
 	local button = script.Parent
@@ -298,8 +296,8 @@ local function DXKR_fake_script() -- GodMode.Script
 		
 	end)
 end
-coroutine.wrap(DXKR_fake_script)()
-local function CLDCC_fake_script() -- GodMode.Button tweens 
+coroutine.wrap(ZOYL_fake_script)()
+local function RCKSJ_fake_script() -- GodMode.Button tweens 
 	local script = Instance.new('LocalScript', GodMode)
 
 	local button = script.Parent
@@ -320,8 +318,8 @@ local function CLDCC_fake_script() -- GodMode.Button tweens
 	end
 	button.Activated:Connect(pressed)
 end
-coroutine.wrap(CLDCC_fake_script)()
-local function FODAINC_fake_script() -- GodMode.GodmodeNotification 
+coroutine.wrap(RCKSJ_fake_script)()
+local function VTSJ_fake_script() -- GodMode.GodmodeNotification 
 	local script = Instance.new('LocalScript', GodMode)
 
 	local button = script.Parent
@@ -344,8 +342,8 @@ local function FODAINC_fake_script() -- GodMode.GodmodeNotification
 	end)
 	
 end
-coroutine.wrap(FODAINC_fake_script)()
-local function XICAR_fake_script() -- ChamsEsp.Script 
+coroutine.wrap(VTSJ_fake_script)()
+local function QUSEKRT_fake_script() -- ChamsEsp.Script 
 	local script = Instance.new('LocalScript', ChamsEsp)
 
 	local button = script.Parent
@@ -486,8 +484,8 @@ local function XICAR_fake_script() -- ChamsEsp.Script
 			end)
 		
 end
-coroutine.wrap(XICAR_fake_script)()
-local function DPHAN_fake_script() -- ChamsEsp.Button tweens 
+coroutine.wrap(QUSEKRT_fake_script)()
+local function JREYCSF_fake_script() -- ChamsEsp.Button tweens 
 	local script = Instance.new('LocalScript', ChamsEsp)
 
 	local button = script.Parent
@@ -508,8 +506,8 @@ local function DPHAN_fake_script() -- ChamsEsp.Button tweens
 	end
 	button.Activated:Connect(pressed)
 end
-coroutine.wrap(DPHAN_fake_script)()
-local function SOSEHP_fake_script() -- ChamsEsp.ChamsNotification 
+coroutine.wrap(JREYCSF_fake_script)()
+local function WRRV_fake_script() -- ChamsEsp.ChamsNotification 
 	local script = Instance.new('LocalScript', ChamsEsp)
 
 	
@@ -535,8 +533,8 @@ local function SOSEHP_fake_script() -- ChamsEsp.ChamsNotification
 	
 	
 end
-coroutine.wrap(SOSEHP_fake_script)()
-local function ZYWKTM_fake_script() -- Aimbot.Script 
+coroutine.wrap(WRRV_fake_script)()
+local function LIRLW_fake_script() -- Aimbot.Script 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	local button = script.Parent
@@ -660,8 +658,8 @@ local function ZYWKTM_fake_script() -- Aimbot.Script
 			end)
 		
 end
-coroutine.wrap(ZYWKTM_fake_script)()
-local function POTYFPW_fake_script() -- Aimbot.Button tweens 
+coroutine.wrap(LIRLW_fake_script)()
+local function NBJYX_fake_script() -- Aimbot.Button tweens 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	local button = script.Parent
@@ -682,8 +680,8 @@ local function POTYFPW_fake_script() -- Aimbot.Button tweens
 		end
 	button.Activated:Connect(pressed)
 end
-coroutine.wrap(POTYFPW_fake_script)()
-local function FGARRKS_fake_script() -- Aimbot.AimbotNotification 
+coroutine.wrap(NBJYX_fake_script)()
+local function KENGP_fake_script() -- Aimbot.AimbotNotification 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	local button = script.Parent
@@ -706,8 +704,8 @@ local function FGARRKS_fake_script() -- Aimbot.AimbotNotification
 	end)
 	
 end
-coroutine.wrap(FGARRKS_fake_script)()
-local function CMUWW_fake_script() -- ExitButton.LocalScript 
+coroutine.wrap(KENGP_fake_script)()
+local function SGAHP_fake_script() -- ExitButton.LocalScript 
 	local script = Instance.new('LocalScript', ExitButton)
 
 	local button = script.Parent
@@ -726,8 +724,8 @@ local function CMUWW_fake_script() -- ExitButton.LocalScript
 		
 	
 end
-coroutine.wrap(CMUWW_fake_script)()
-local function ZMDF_fake_script() -- ExitButton.Button tweens 
+coroutine.wrap(SGAHP_fake_script)()
+local function PCRGU_fake_script() -- ExitButton.Button tweens 
 	local script = Instance.new('LocalScript', ExitButton)
 
 	local button = script.Parent
@@ -748,8 +746,8 @@ local function ZMDF_fake_script() -- ExitButton.Button tweens
 	end
 	button.Activated:Connect(pressed)
 end
-coroutine.wrap(ZMDF_fake_script)()
-local function BQHPUY_fake_script() -- Terminate.LocalScript 
+coroutine.wrap(PCRGU_fake_script)()
+local function IMFMY_fake_script() -- Terminate.LocalScript 
 	local script = Instance.new('LocalScript', Terminate)
 
 	
@@ -762,15 +760,18 @@ local function BQHPUY_fake_script() -- Terminate.LocalScript
 	local Notififi = Notification.TermNotif
 	local KrampGui = script.Parent.Parent
 	local KrampLogo = script.Parent.Parent.Parent.Logo
+	local KrampLogoImage = KrampLogo.CloseLogo
 	local GoalPos = script.Parent.Parent.Parent.Logo.Position
 	
 	
 	button.MouseButton1Click:Connect(function()
 		KrampGui:TweenSize(UDim2.new(GoalPos), Enum.EasingDirection.In, Enum.EasingStyle.Linear,0.5, false )
 		KrampLogo:TweenSize(UDim2.new(GoalPos), Enum.EasingDirection.In, Enum.EasingStyle.Linear,0.5, false )
+		KrampLogoImage:TweenSize(UDim2.new(GoalPos), Enum.EasingDirection.In, Enum.EasingStyle.Linear,0.5, false )
 		wait(0.5)
 		TermGUI:Destroy()
 		TermLogo:Destroy()
+		KrampLogoImage:Destroy()
 		wait(1)
 		
 		ChamsNotif.Visible = true
@@ -786,8 +787,8 @@ local function BQHPUY_fake_script() -- Terminate.LocalScript
 		
 	end)
 end
-coroutine.wrap(BQHPUY_fake_script)()
-local function FTXJ_fake_script() -- Terminate.Button tweens 
+coroutine.wrap(IMFMY_fake_script)()
+local function WBBXQ_fake_script() -- Terminate.Button tweens 
 	local script = Instance.new('LocalScript', Terminate)
 
 	local button = script.Parent
@@ -808,8 +809,8 @@ local function FTXJ_fake_script() -- Terminate.Button tweens
 	end
 	button.Activated:Connect(pressed)
 end
-coroutine.wrap(FTXJ_fake_script)()
-local function VUOBMP_fake_script() -- Discord.Button tweens 
+coroutine.wrap(WBBXQ_fake_script)()
+local function PRACH_fake_script() -- Discord.Button tweens 
 	local script = Instance.new('LocalScript', Discord)
 
 	local button = script.Parent
@@ -830,8 +831,8 @@ local function VUOBMP_fake_script() -- Discord.Button tweens
 	end
 	button.Activated:Connect(pressed)
 end
-coroutine.wrap(VUOBMP_fake_script)()
-local function QEYD_fake_script() -- CloseLogo.Open 
+coroutine.wrap(PRACH_fake_script)()
+local function ZLOQB_fake_script() -- CloseLogo.Open 
 	local script = Instance.new('LocalScript', CloseLogo)
 
 	local button = script.Parent
@@ -839,10 +840,12 @@ local function QEYD_fake_script() -- CloseLogo.Open
 	local Term = script.Parent.Parent.Parent.KrampGUI.Terminate
 	local GoalPos = script.Parent.Parent.Parent.Logo.Position
 	
+	
 	button.MouseButton1Click:Connect(function()
 		Frame.Visible = true
 		Frame:TweenSize(UDim2.new(0.295, 0,0.376, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear,0.5, false )
 		Term:TweenSize(UDim2.new(0.329, 0,0.14, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear,0.5, false )
+		
 		
 		
 	
@@ -850,4 +853,4 @@ local function QEYD_fake_script() -- CloseLogo.Open
 	
 	
 end
-coroutine.wrap(QEYD_fake_script)()
+coroutine.wrap(ZLOQB_fake_script)()
